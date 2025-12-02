@@ -6,7 +6,7 @@ public class PointRotation extends JPanel {
     // Single point (x, y, 1)
     int[] point = {200, 100, 1};
 
-    // ROTATION MATRIX: multiply point × R
+    // ROTATION MATRIX: multiply point × R 
     int[] rotatePoint(int[] p, double angle) {
         double rad = Math.toRadians(angle);
         double cos = Math.cos(rad);

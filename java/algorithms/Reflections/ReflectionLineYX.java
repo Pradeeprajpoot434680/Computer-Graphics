@@ -10,7 +10,6 @@ public class ReflectionLineYX extends JPanel {
         this.x = x;
         this.y = y;
 
-        // Reflection about line y = x
         rx = y;
         ry = x;
     }
